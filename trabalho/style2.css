@@ -8,11 +8,12 @@ body {
 }
 
 .container {
+    position: fixed;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     width: 99%;
-    height: 98%;
+    height: 85%;
 }
 
 .topo{
@@ -27,7 +28,7 @@ body {
     background-color: #008c9e;
     margin-top: 0;
     width: 13%;
-    height: 70.2%;
+    height: 73.2%;
     border-bottom-left-radius: 10px;
 }
 
@@ -75,12 +76,16 @@ a {
 
 p {
     margin: 0;
+    margin-left: 8%;
+    color: #ccc;
 }
 
 .texto {
     font-family: sans-serif;
     margin-top: 30px;
     margin-bottom: 30px;
+    margin-left: 0;
+    color: black;
 }
 
 label {
