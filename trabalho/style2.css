@@ -1,0 +1,115 @@
+body {
+    font-family: sans-serif;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 99%;
+    height: 98%;
+}
+
+.topo{
+    background-color: #00BCD4;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0;
+}
+
+.lateral{
+    position:fixed;
+    background-color: #008c9e;
+    margin-top: 0;
+    width: 13%;
+    height: 70.2%;
+    border-bottom-left-radius: 10px;
+}
+
+.profile{
+    margin-top: 15%;
+    margin-left: 22.5%;
+    border-radius: 70%;
+    height: 70%;
+    width: 50%;
+}
+
+.opcao_lateral{
+    color: rgb(236, 236, 236);
+    font-size: larger;
+    margin-top: 15%;
+    margin-left: 8%;
+}
+
+.interno {
+    padding: 40px;
+    margin-left: 13%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 20px;
+    margin: 0px;
+}
+
+nav ul li {
+    display:inline; 
+    margin-right: 10%;
+}
+
+.img1{
+    height: 65px;
+    width: 300px;
+}
+
+a {
+    text-align: center;
+    color: #00BCD4;
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 0;
+}
+
+.texto {
+    font-family: sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="date"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+button {
+    background-color: #00BCD4;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%;
+    margin-top: 10%;
+    margin-left: 35%;
+}
