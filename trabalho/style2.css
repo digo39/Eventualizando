@@ -107,14 +107,20 @@ input[type="date"] {
     font-family: sans-serif;
 }
 
-button {
+.botao {
     background-color: #00BCD4;
     color: white;
+    border: 0;
     padding: 10px 30px;
-    border: none;
     border-radius: 5px;
     cursor: pointer;
-    width: 30%;
+    width: 20%;
     margin-top: 10%;
     margin-left: 35%;
+    transition-duration: 0.4s;
+}
+
+.botao:hover {
+  background-color: white;
+  color: #00BCD4;
 }
