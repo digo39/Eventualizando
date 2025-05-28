@@ -60,6 +60,12 @@ button {
     width: 30%;
     margin-top: 15%;
     margin-left: 35%;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: white;
+  color: #00BCD4;
 }
 
 a {

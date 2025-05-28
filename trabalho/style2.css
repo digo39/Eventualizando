@@ -11,7 +11,7 @@ body {
     position: fixed;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
     width: 99%;
     height: 85%;
 }
@@ -38,6 +38,7 @@ body {
     border-radius: 70%;
     height: 70%;
     width: 50%;
+    object-fit: cover;
 }
 
 .opcao_lateral{
